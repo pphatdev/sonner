@@ -2,9 +2,9 @@
     "name": "sonner",
     "version": "0.1.1",
     "description": "Sample Toast",
-    "main": "index.html",
     "scripts": {
-        "start": "serve"
+        "start": "serve",
+        "style": "npx tailwindcss -i ./src/index.css -o ./public/styles.css --watch"
     },
     "keywords": [
         "html",
@@ -14,5 +14,8 @@
     "license": "MIT",
     "devDependencies": {
         "serve": "11.2.0"
+    },
+    "dependencies": {
+        "tailwindcss": "^3.4.4"
     }
 }

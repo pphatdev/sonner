@@ -3,7 +3,7 @@
 
 <head>
     <title>sonner-js example</title>
-    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./public/styles.css" />
     <script type="module">
         import { Sonner } from "./src/sonner.js";
         window.Sonner = Sonner
@@ -19,11 +19,11 @@
 </head>
 
 <body>
-    <button onclick="Sonner.show('This is a sample toast')">Show Toast</button>
-    <button onclick="Sonner.success('This is a sample toast')"> Show Success Toast </button>
-    <button onclick="Sonner.error('This is a sample toast')"> Show Error Toast </button>
-    <button onclick="Sonner.warning('This is a sample toast')"> Show Warning Toast </button>
-    <button onclick="Sonner.info('This is a sample toast')">  Show Info Toast </button>
+    <button class="bg-slate-200 border p-4" onclick="Sonner.show('This is a sample toast')">Show Toast</button>
+    <button class="bg-slate-200 border p-4" onclick="Sonner.success('This is a sample toast')"> Show Success Toast </button>
+    <button class="bg-slate-200 border p-4" onclick="Sonner.error('This is a sample toast')"> Show Error Toast </button>
+    <button class="bg-slate-200 border p-4" onclick="Sonner.warning('This is a sample toast')"> Show Warning Toast </button>
+    <button class="bg-slate-200 border p-4" onclick="Sonner.info('This is a sample toast')">  Show Info Toast </button>
 </body>
 
 </html>
